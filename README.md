@@ -21,7 +21,8 @@ https://github.com/ryanoasis/nerd-fonts/releases/download/v2.1.0/Meslo.zip
     },
 </code>
 
-4. civar la politica de ejecucion de scripts en la maquina
+4. Activar la politica de ejecucion de scripts en la maquina
+
 <code>
 Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser
 </code>
@@ -32,13 +33,14 @@ Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser
 <code>
 curl https://github.com/CarminaMatrix/ohmyposh.git
 </code>
+
 6. obtener Temas
 Get-PoshThemes
 
 7. Activar y Cambiar temas
 notepad $PROFILE
 
-agregar:
+8. Agregar al archivo:
 oh-my-posh --init --shell pwsh --config "C:\Users\bufet\Documents\WindowsPowerShell\Modules\oh-my-posh\themes\powerlevel10k_classic.omp.json" | Invoke-Expression
 ***guardar
 -- Cambiar tema provisionalmente

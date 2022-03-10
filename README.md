@@ -29,7 +29,7 @@ Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser
 	nota. Desactivarla.
 	Set-ExecutionPolicy -ExecutionPolicy Undefined -Scope LocalMachine
 
-5. Instalar oh-myposh:
+5. Instalar oh-myposh: en C:\Users\tuusuarioxxx\Documents
 <code>
 curl https://github.com/CarminaMatrix/ohmyposh.git
 </code>

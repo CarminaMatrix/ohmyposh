@@ -7,7 +7,8 @@ https://www.microsoft.com/es-mx/p/windows-terminal/9n0dx20hk701?activetab=pivot:
 2. Instalar Meslo Nerd Font
 https://github.com/ryanoasis/nerd-fonts/releases/download/v2.1.0/Meslo.zip
 
-3. Ediatr el archivo .json en confirugracion de windows terminal y adicionar estas lineas
+3. Editar el archivo .json en confirugracion de windows terminal y adicionar estas lineas:
+<code>
 {
     "commandline": "powershell.exe",
     "font": 
@@ -18,10 +19,12 @@ https://github.com/ryanoasis/nerd-fonts/releases/download/v2.1.0/Meslo.zip
     "hidden": false,
     "name": "Windows PowerShell"
     },
+</code>
 
-4. Acivar la politica de ejecucion de scripts en la maquina
+4. civar la politica de ejecucion de scripts en la maquina
+<code>
 Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser
-
+</code>
 	nota. Desactivarla.
 	Set-ExecutionPolicy -ExecutionPolicy Undefined -Scope LocalMachine
 

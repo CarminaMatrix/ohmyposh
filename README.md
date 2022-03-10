@@ -29,7 +29,7 @@ Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser
 	Set-ExecutionPolicy -ExecutionPolicy Undefined -Scope LocalMachine
 
 5. Instalar oh-myposh
-curl 
+curl https://github.com/CarminaMatrix/ohmyposh.git
 
 6. obtener Temas
 Get-PoshThemes

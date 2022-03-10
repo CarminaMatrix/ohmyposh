@@ -31,7 +31,7 @@ Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser
 
 5. Instalar oh-myposh: en C:\Users\tuusuarioxxx\Documents
 <code>
-curl https://github.com/CarminaMatrix/ohmyposh.git
+git https://github.com/CarminaMatrix/ohmyposh.git
 </code>
 
 6. obtener Temas
